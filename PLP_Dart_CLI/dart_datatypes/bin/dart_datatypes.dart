@@ -1,4 +1,4 @@
-import 'package:dart_datatypes/dart_datatypes.dart';
+import 'package:dart_utils/dart_datatypes.dart';
 
 void main() {
   // Usage of the created variables in my statement.

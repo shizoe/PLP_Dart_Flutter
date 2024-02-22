@@ -1,7 +1,7 @@
-name: dart_datatypes
-description: A sample command-line application.
+name: dart_utils
+description: A simple command-line application.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/shizoe/PLP_Dart_DART_FLUTTER/PLP_Dart_CLI/dart_datatypes
 
 environment:
   sdk: ^3.2.6

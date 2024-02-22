@@ -1,7 +1,5 @@
 // importing dart:io file
 
-import 'dart:ffi';
-
 void main() {
   int myNum = 10;
   double myNum1 = 13.23;
