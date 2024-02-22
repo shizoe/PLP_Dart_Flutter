@@ -1,6 +1,7 @@
 # Dart and Flutter Programming
 
-This repository contains Dart and Flutter programming from basics to developing a full application.
+This repository contains Dart and Flutter programming from basics to developing a full application. You can use this projects as a reference to developing your our full flagged
+Dart and Flutter Application!
 
 ## Dart
 
