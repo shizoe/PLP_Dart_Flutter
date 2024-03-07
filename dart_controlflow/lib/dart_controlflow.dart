@@ -26,3 +26,31 @@ void myNumber([String? i]) {
     print('Invalid input. Please enter a valid number.');
   }
 }
+
+class Patient {
+  int? id;
+  String? firstName;
+  String? lastName;
+  int? age;
+  String? sex;
+  String? address;
+  String? phoneNumber;
+
+  Patient(
+      {this.id,
+      this.firstName,
+      this.lastName,
+      this.age,
+      this.address,
+      this.phoneNumber});
+  static String classInfo =
+      "This is a patient class containing patient information";
+  void patientInfo() {
+    print("Patient ID: $id");
+    print("Patient Name: $firstName $lastName");
+    print("Patient Age: $age");
+    print("Patient Gender: $sex");
+    print("Patient Address: $address");
+    print("Patient Phone Number: $phoneNumber");
+  }
+}
