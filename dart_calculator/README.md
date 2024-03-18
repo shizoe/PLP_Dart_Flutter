@@ -20,7 +20,7 @@ A simple command-line calculator written in Dart. This calculator allows you to 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shizoe/dart-calculator.git
+   git clone https://github.com/shizoe/PLP_Dart_Flutter/tree/main/dart_calculator.git
    ```
 
 2. Navigate to the project directory:
