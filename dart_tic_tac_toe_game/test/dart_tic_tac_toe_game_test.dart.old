@@ -1,0 +1,35 @@
+import 'package:dart_tic_tac_toe_game/dart_tic_tac_toe_game.dart.old';
+import 'package:test/test.dart';
+
+void main() {
+  // Add these tests to your existing test file
+
+  test('Test printBoard', () {
+    List<String> board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+    printBoard();
+    // Since printBoard() doesn't return anything, we can't directly test its output.
+    // However, we can test that it doesn't throw an error when called.
+    expect(printBoard, returnsNormally);
+  });
+
+  test('Test makeMove', () {
+    List<String> board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+    makeMove(board, 0); // Pass the board as a parameter
+    expect(board[0], equals('X'));
+    makeMove(board, 0); // Pass the board as a parameter
+    expect(
+        board[0],
+        equals(
+            'X')); // Test that a move can't be made in an already occupied position
+    makeMove(board, 1); // Pass the board as a parameter
+    expect(board[1],
+        equals('O')); // Test that the current player switches after a move
+  });
+
+  test('Test checkWin', () {
+    List<String> board = ['X', 'X', 'X', ' ', ' ', ' ', ' ', ' ', ' '];
+    expect(checkWin(board), isTrue); // Test a winning condition
+    board = ['X', 'O', 'X', ' ', ' ', ' ', ' ', ' ', ' '];
+    expect(checkWin(board), isFalse); // Test a non-winning condition
+  });
+}
