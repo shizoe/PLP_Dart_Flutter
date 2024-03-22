@@ -21,15 +21,15 @@ To run the Namer App, follow these steps:
 
 1. Home Page.
 
-![Screenshot 1](https://github.com/shizoe/PLP_Dart_Flutter/flutter_codelab_1/home.png)
+![Screenshot 1](https://github.com/shizoe/PLP_Dart_Flutter/blob/main/flutter_codelab_1/home.png)
 
 2. Favourite Page
 
-![Screenshot 2](https://github.com/shizoe/PLP_Dart_Flutter/flutter_codelab_1/fav.png)
+![Screenshot 2](https://github.com/shizoe/PLP_Dart_Flutter/blob/main/flutter_codelab_1/fav.png)
 
 3. Application Demo
 
-![App Demo](https://github.com/shizoe/PLP_Dart_Flutter/flutter_codelab_1/favword.gif)
+![App Demo](https://github.com/shizoe/PLP_Dart_Flutter/blob/main/flutter_codelab_1/favword.gif)
 
 ## Installation
 
