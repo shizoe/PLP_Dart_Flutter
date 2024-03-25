@@ -15,7 +15,7 @@ To run the Namer App, you need to have Flutter installed on your system. Follow 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/shizoe/PLP_Dart_Flutter/flutter_codelab_2.git
+git clone https://github.com/shizoe/PLP_Dart_Flutter/tree/main/flutter_codelab_2.git
 ```
 
 2. Navigate to the project directory:
